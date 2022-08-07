@@ -1,36 +1,9 @@
 import './App.css';
-import React, { useEffect, useState } from "react";
+import React from "react";
 import DisplayFormDataInTable from './component/mahasiswa/DisplayFormDataInTable';
-import getFormattedWeatherData from "./services/weatherServices";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-	// const [address, setAddress] = useState("")
-	// const [lat, setLat] = useState(null);
-	// const [lon, setLon] = useState(null);
-	// const [city, setCity] = useState("Malang");
-	
-	// useEffect(() => {
-	// 	if (navigator.geolocation) {
-	// 		navigator.geolocation.getCurrentPosition((position) => {
-	// 			setLat(position.coords.latitude);
-	// 			setLon(position.coords.longitude);
-	// 		});
-	// 	}
-	// }, [lat, lon])
-
-	// useEffect(() => {
-	// 	const getCity = async () => {
-	// 		await getFormattedWeatherData({ lat: lat, lon: lon, units: "metric" }).then((data) => {
-	// 			setCity(data.name);
-	// 		});
-	// 	};
-
-	// 	getCity();
-
-	// }, [lat, lon]);
-	
-
 	// const API_KEY = "AIzaSyDywZbRdHei-X1qgWTAw1UnCdyjxPGa-ps";
 	// const URL = "https://maps.google.com/maps/api/geocode/json?latlng=";
 
